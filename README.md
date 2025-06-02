@@ -54,33 +54,33 @@ cd client
 npm run dev
 ## Структура проекта
 KRJS/
-├── client/               # Frontend на Vue.js
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── App.vue
-│   │   └── main.js
-│   └── package.json
-│
-├── index.js              # Backend на Node.js
-├── package.json
-└── README.md
+- ├── client/               # Frontend на Vue.js
+- │   ├── public/
+- │   ├── src/
+- │   │   ├── assets/
+- │   │   ├── App.vue
+- │   │   └── main.js
+- │   └── package.json
+- │
+- ├── index.js              # Backend на Node.js
+- ├── package.json
+- └── README.md
 ## Зависимости
 ### Сервер:
-canvas: ^3.1.0
-cors: ^2.8.5
-express: ^5.1.0
-image-size: ^2.0.2
-multer: ^2.0.0
-nodemon: ^3.1.10
-sharp: ^0.34.2
+- canvas: ^3.1.0
+- cors: ^2.8.5
+- express: ^5.1.0
+- image-size: ^2.0.2
+- multer: ^2.0.0
+- nodemon: ^3.1.10
+- sharp: ^0.34.2
 
 ### Клиент:
-vue: ^3.3.0
-axios: ^1.6.2
+- vue: ^3.3.0
+- axios: ^1.6.2
 
 ## Примеры использования
-Загрузите изображение через интерфейс
-Выберите нужные операции (изменение размера, обрезка и т.д.)
-Настройте параметры операции
-Скачайте обработанное изображение
+- Загрузите изображение через интерфейс
+- Выберите нужные операции (изменение размера, обрезка и т.д.)
+- Настройте параметры операции
+- Скачайте обработанное изображение
